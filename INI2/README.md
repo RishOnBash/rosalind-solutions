@@ -1,5 +1,5 @@
 ## INI2
-[Variables and Some Arithmetic](https://rosalind.info/problems/ini2/), is the first problem in [string algorithms](https://rosalind.info/problems/topics/programming/).
+[Variables and Some Arithmetic](https://rosalind.info/problems/ini2/), is the first problem in [programming](https://rosalind.info/problems/topics/programming/).
 
 ## Problem Statement
 - Given: Two positive integers _a_ and _b_, each less than 1000.
