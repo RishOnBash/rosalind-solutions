@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except
+!*.c
+!*.h
+!*.go
+!*.sh
+!*.py
+!Makefile
+!.gitignore
+!README.md
+!LICENSE
