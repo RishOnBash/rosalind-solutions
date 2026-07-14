@@ -6,5 +6,6 @@
 !*.py
 !*.sh
 !*.go
+!*.txt
 !README.md
 !.gitignore
