@@ -7,6 +7,9 @@ Each specific problems are coded as per how rosalind list on their site. It cont
 - To able solve the same problem in languages i know.
 - Which will ultimately help me to understand the language better.
 
+### My account
+* [Rosalind accout](https://rosalind.info/users/rishonbash/)
+
 ## Included Problems
 * [INI2](INI2)
 * [INI4](INI4)
