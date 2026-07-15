@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except
+!*.c
+!*.py
+!*.sh
+!*.go
+!*.txt
+!README.md
+!.gitignore
