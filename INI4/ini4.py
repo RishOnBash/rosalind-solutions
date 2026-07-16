@@ -12,7 +12,7 @@ num2 = int(argv[2])
 
 total = 0
 for i in range(num1, num2+1):
-    if (i % 2 == 1):
+    if (i & 1):
         total += i
 
 print(total)

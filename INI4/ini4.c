@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
 
     unsigned int sum=0;
     for (int i=num1; i<=num2; i++)
-        if (i % 2 == 1) sum += i;
+        if (i & 1) sum += i;
 
     printf("%u\n", sum);
     return 0;

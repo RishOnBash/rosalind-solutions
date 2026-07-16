@@ -8,8 +8,7 @@ num2=$2
 
 total=0
 for ((i=num1; i<=num2; i++)); do
-    ((i % 2 == 1)) && \
-        ((total += i))
+    ((i & 1)) && ((total += i))
 done
 
 echo "$total"
