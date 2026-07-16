@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include <errno.h>
+#include <stdio.h>
+#include <string.h>
 
 // print even line numbers from a file
 
