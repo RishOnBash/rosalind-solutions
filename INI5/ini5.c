@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
     char buf [4096];
     while (fgets(buf, sizeof(buf), fp)) {
         count++;
-        if (count % 2 == 0)
+        if ((~count) & 1)
             printf("%s", buf);
     }
 
