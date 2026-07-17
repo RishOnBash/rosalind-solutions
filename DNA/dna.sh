@@ -7,9 +7,10 @@ INPUT=$1
 [[ ! -f $INPUT ]] && \
     { echo "Usage: ${0##/*} <file>"; exit 1; }
 
-A=$(tr -cd 'A' < $INPUT | wc -c)
-C=$(tr -cd 'C' < $INPUT | wc -c)
-G=$(tr -cd 'G' < $INPUT | wc -c)
-T=$(tr -cd 'T' < $INPUT | wc -c)
+nt_arr=(A C G T)
+for nt in "${nt_arr[@]}"; do
+    nts=$(tr -cd "$nt" < $INPUT)
+    printf "${#nts} "
+done
 
-echo "$A $C $G $T"
+echo    # to place prompt on '\n'
