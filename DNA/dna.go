@@ -19,9 +19,8 @@ func main() {
 
 	var countA, countG, countC, countT uint16
 	
-	for _, c := range file {
-		char := byte(c)
-		switch char {
+	for _, nt := range file {
+		switch nt {
 			case 'A': countA++
 			case 'C': countC++
 			case 'G': countG++
