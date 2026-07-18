@@ -4,7 +4,7 @@
 
 INPUT=$1
 [[ ! -f $INPUT ]] && \
-    { echo "Usage: ${0##/*} <file>"; exit 1; }
+    echo "Usage: ${0##/*} <file>" && exit 1
 
 RNA=$(tr 'T' 'U' < $INPUT)
 echo "$RNA"
