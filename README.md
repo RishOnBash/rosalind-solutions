@@ -14,6 +14,7 @@ Each specific problems are coded as per how rosalind list on their site. It cont
 * [INI2](INI2)
 * [INI4](INI4)
 * [INI5](INI5)
+* [INI6](INI6)
 * [DNA](DNA)
 * [RNA](RNA)
 * [REVC](REVC)
