@@ -6,4 +6,6 @@
 - Return: The transcribed RNA string of _t_.
 
 ## How i solved
-- Using **tr** to replace 'T' with 'U'.
+- `Bash`: using `tr` to replace 'T' with 'U'.
+- `Awk`: using `gsub` = global substitution.
+- `Python:` using `replace` builtin function.
