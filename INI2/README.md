@@ -7,6 +7,9 @@
 
 ## How i solved
 - This was first time i tried to solve the problem using Python on Rosalind. 
-- Python isn'nt my first, second, or even third its my fourth language.
 - And i am new to it so i thought this would be good starting point.
-- Also used [Go](hypotenuse.go) which i am currently learning alongside Python.
+- Also used [Go](ini2.go) and [Awk](ini2.awk) which i am currently learning alongside Python.
+
+> [!NOTE] Here the arguments are not passed as file, instead you have to pass actual values provided in the dataset.
+
+> [!TIP] And that's why the [Awk](ini2.awk) version is the reccomended way to solve the problem.
