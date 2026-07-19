@@ -2,7 +2,7 @@
 
 BEGIN {
     if (ARGC < 2) {
-        print "Usage: ./rna.awk <file>"
+        printf "Usage: %s <file>\n", ENVIRON["_"]
         exit 1
     }
 }
