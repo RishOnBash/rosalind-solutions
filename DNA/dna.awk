@@ -2,7 +2,7 @@
 
 BEGIN {
     if (ARGC < 2) {
-        printf "Usage: %s <file\n", ENVIRON["_"]
+        printf "Usage: %s <file>\n", ENVIRON["_"]
         exit 1
     }
     ntA=ntG=ntC=ntT=0
