@@ -11,7 +11,7 @@
 - Also used [Go](ini2.go) and [Awk](ini2.awk) which i am currently learning alongside Python.
 
 > [!NOTE]
-> Here the arguments are not passed as file, instead you have to pass actual values provided in the dataset.
+> In C, Go and Python version, the arguments are not passed as file, instead you have to pass actual values provided in the dataset.
 
 > [!TIP] 
-> And that's why the [Awk](ini2.awk) version is the reccomended way to solve the problem.
+> Use the [Awk](ini2.awk) or [Bash](ini2.sh) version to solve the problem.
