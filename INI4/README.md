@@ -11,4 +11,4 @@
 - The dataset gives you any range from 1 to 10000, your task is find the odd numbers in that range and add it till the maximum range and print it.
 
 > [!TIP]
-> Just like INI2 this also has a caveat that the argumenrts are accepted as literal numbers from a file, except for the [Awk version](ini4.awk), where the argument as accepted as file.
+> Just like INI2 this also has a caveat for C that the arguments are accepted as literal numbers from a file, so a Bash or Awk version is go to. 
